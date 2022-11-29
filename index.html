@@ -5,133 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/Styles.css" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">WebStudio</a>
-        <a href="#">Estudio</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Contactos</a>
+        <a href="#" class="logo">Web site</a>
+        <a href="#" class="link1">Estudio</a>
+        <a href="#" class="link2" id="title-color">Portafolio</a>
+        <a href="#" class="link3" id="title-color">Contactos</a>
+        <a href="info@devstudio.com" class="link4">info@devstudio.com</a>
+        <a href="tel:+525555296000" class="link5">+525555296000</a>
       </nav>
-      <a href="info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+525555296000">+525555296000</a>
     </header>
-    <section>
-      <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-      <br />
-      <button>Solicite nuestro servicio</button>
+    <section class="box">
+      <h1 id="solutions">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+      <button id="button-main">Solicite nuestro servicio</button>
     </section>
     <article>
-      <h2>ATENCIÓN A LOS DETALLES</h2>
-      <p>
+      <h3 id="attention">ATENCIÓN A LOS DETALLES</h3>
+      <p id="detail-attention">
         Nos adentramos en todos los detalles y procesos de su negocio, para así
         desarrollar una solución a su medida.
       </p>
     </article>
     <article>
-      <h2>PUNTUALIDAD</h2>
-      <p>
+      <h3 id="puntuality">PUNTUALIDAD</h3>
+      <p id="detail-puntuality">
         Con nosotros, usted puede sentirse seguro y protegido. Un principio
         importante de la empresa: respetar su tiempo y respetar los plazos
         acordados.
       </p>
     </article>
     <article>
-      <h2>PLANIFICACIÓN</h2>
-      <p>
+      <h3 id="planning">PLANIFICACIÓN</h3>
+      <p id="detail-planning">
         Usted podrá observar y participar en cada fase del desarrollo y
         aplicación de soluciones.
       </p>
     </article>
     <article>
-      <h2>TEGNOLOGÍA MODERNA</h2>
-      <p>
+      <h3 id="technology">TEGNOLOGÍA MODERNA</h3>
+      <p id="detail-technology">
         Usamos herramientas innovadoras para resolver las tareas asignadas. Es
         hora de simplificar los procesos laborales.
       </p>
     </article>
     <section>
       <div>
-        <h2>A qué nos dedicamos</h2>
+        <h2 id="dedication">A qué nos dedicamos</h2>
       </div>
       <div>
         <ul>
-          <li>
-            <img
-              src="images/imagen.jpg"
-              width="350"
-              height="290"
-              alt="Imagen de computador"
-            />
+          <li id="imagen1">
+            <img src="images/imagen.jpg" alt="Imagen de computador" />
           </li>
-          <li>
-            <img
-              src="images/imagen(1).jpg"
-              width="350"
-              height="290"
-              alt="Imagen de celular"
-            />
+          <li id="imagen2">
+            <img src="images/imagen(1).jpg" alt="Imagen de celular" />
           </li>
-          <li>
-            <img
-              src="images/imagen(2).jpg"
-              width="350"
-              height="290"
-              alt="Imagen de tablet"
-            />
+          <li id="imagen3">
+            <img src="images/imagen(2).jpg" alt="Imagen de tablet" />
           </li>
         </ul>
       </div>
     </section>
     <section>
-      <div>
-        <h2>Nuestro equipo</h2>
-      </div>
+      <div class="container-team"></div>
+      <h2 id="team">Nuestro equipo</h2>
       <ul>
         <li>
+          <div id="product"></div>
+          <img id="picture-product" src="images/imagen(3).jpg" alt="Andrés" />
+          <h4 id="name-product">Andrés Cubo</h4>
+          <p id="position-product">Diseñador de productos</p>
+        </li>
+        <li>
+          <div id="frontend"></div>
           <img
-            src="images/imagen(3).jpg"
-            width="350"
-            height="290"
-            alt="Andrés"
-          />
-          <h4>Andrés Cubo</h4>
-          <p>Diseñador de productos</p>
-          <img
+            id="picture-frontend"
             src="images/imagen(4).jpg"
-            width="350"
-            height="290"
-            alt="Carla"
+            alt="frontend"
           />
-          <h4>Carla Palacios</h4>
-          <p>Desarrolladora Frontend</p>
+          <h4 id="name-frontend">Carla Palacios</h4>
+          <p id="position-frontend">Desarrolladora Frontend</p>
+        </li>
+        <li>
+          <div id="marketing"></div>
           <img
+            id="picture-marketing"
             src="images/imagen(5).jpg"
-            width="350"
-            height="290"
-            alt="Mario"
+            alt="marketing"
           />
-          <h4>Mario Dorado</h4>
-          <p>Marketing</p>
+          <h4 id="name-marketing">Mario Dorado</h4>
+          <p id="position-marketing">Marketing</p>
+        </li>
+        <li>
+          <div id="designer"></div>
           <img
+            id="picture-designer"
             src="images/imagen(6).jpg"
-            width="350"
-            height="290"
-            alt="Pablo"
+            alt="designer"
           />
-          <h4>Pablo Mijangos</h4>
-          <p>Diseñador IU</p>
+          <h4 id="name-designer">Pablo Mijangos</h4>
+          <p id="position-designer">Diseñador IU</p>
         </li>
       </ul>
     </section>
     <footer>
-      <h4>WebStudio</h4>
-      <address>
-        "Calz. Ticomán 500, Ciudad de México, CDMX, México"<br />
-        <a href="info@example.com">info@example.com</a> <br />
-        <a href="tel:+525555296000">+525555296000</a>
+      <div id="footer"></div>
+      <h4 id="webstudio">WebStudio</h4>
+      <address id="address">
+        Calz. Ticomán 500, Ciudad de México, CDMX, México
       </address>
+      <a id="email" href="info@example.com">info@example.com</a>
+      <a id="phone" href="tel:+525555296000">+525555296000</a>
     </footer>
   </body>
 </html>
